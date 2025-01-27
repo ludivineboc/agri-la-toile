@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -7,14 +9,36 @@
     display: flex;
     flex-wrap: wrap;
 }
+.alignItems{
+    align-items: center;
+}
+.colorTexte{
+    color: #83B27B;
+    
+}
+.bgColVert{
+    background-color: #83B27B;
+    height: 100vh;
+    padding: 50px 0px
+}
+.marginDivHero{
+padding: 0px 20px 0px 20px;
+}
 body{
-    font-family: sans-serif;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+.column{
+    flex-direction: column;
 }
 .width50{
 	width : 50%;
 }
 .width30{
 	width : 30%;
+}
+.width100{
+    width: 100%;
 }
 .spaceBetween{
     justify-content: space-between;
@@ -29,4 +53,47 @@ li{
 	max-width: 1000px;
 	margin: auto;
 	width: 100%
+}
+
+/*HEADER*/
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+}
+.btnAccueil{
+    background-color: rgb(255, 255, 255);
+    padding: 16px 24px;
+    color: black;
+}
+.btnAccueil:hover{
+    background-color: rgb(217, 217, 217);
+    padding: 16px 24px;
+    color: black;
+    transition: 0.3s;
+}
+
+/*Hero*/
+.imgHero{
+    width: 50%;
+}
+h1{
+    font-family: "Quicksand", serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+h2{
+    font-family: "Quicksand", serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+}
+.cta{
+    background-color: #fff;
+    color: gray;
+    margin-top: 30px;
+    padding: 14px 20px;
+    border-radius: 30px;
+    display:inline-block
 }
