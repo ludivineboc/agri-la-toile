@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: sans-serif;
+}
+.width50{
+	width : 50%;
+}
+.width30{
+	width : 30%;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+	max-width: 1000px;
+	margin: auto;
+	width: 100%
+}
