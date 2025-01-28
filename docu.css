@@ -56,25 +56,29 @@
     margin-bottom : 80px;
 }
 
+.alignItems{
+    align-items: center;
+}
+
 /*********************************PAGE DOCUMENTATION******************************/
 
 /*DEMI CERCLE EN HAUT DE LA PAGE*/
 .cercle {
     position: absolute;
     background-color: #DBE9D9;
-    border-radius: 1000px;
-    /*box-shadow: 0 0 1000px 45px ;*/
+    border-radius: 1000px;   
     left: 0px;
     top: -900px;
     width: 100%;
-    height: 1500px;
+    height: 1200px;
     z-index: -1;
 }
 
 /*****************************************HEADER PAGE LANDING************************************/
 header {
-    padding: 20px 40px;
+    padding: 20px 40px;   
 }
+
 .btnAccueil {
     color: black;
     font-size: 14px;
@@ -87,13 +91,17 @@ header {
     border-radius: 30px;
 }
 
+.logo{
+    width : 20%
+}
+
 /******************************SECTION TITRE DOCUMENTATION**************************/
 .titres h1 {
     color: black;
     font-family: "Quicksand", serif;
     font-weight: 700;
     font-size: 40px;
-    margin-top: 400px;
+    margin-top: 110px;
     text-align: center;
 }
 
@@ -134,6 +142,7 @@ header {
     width:200px;
     height: 300px;
     background-color: #DBE9D9;
+    margin-left:10px;
 }
 
 .monSommaire a {       
@@ -144,7 +153,9 @@ header {
     line-height:40px;
 }
 
-
+.monSommaire li {
+    list-style: decimal;
+}
 /*****************************SECTION GENERAL DE LA PAGE**************************/
 .divGenerale {
     width: 80%;
@@ -153,17 +164,19 @@ header {
     margin-top: 15px;
 }
 
-
+/*les paragraphes*/
 .leContexte p,
 .leProbleme p,
-.leBenchmark p {
+.leBenchmark p,
+.Solution p,
+.perspective p {
     font-size: 14px;
     font-weight: 500; 
     margin-left:25px;
     padding-top: 20px;
 }
 
-
+/*l'image du persona*/
 .lePersona img {
     width: 80%;
     object-fit: cover;
@@ -171,7 +184,7 @@ header {
     margin-top:40px;
 }
 
-
+/*section user flow*/
 .MesActions {
     width: 40%;
     font-weight: 500;
@@ -182,8 +195,33 @@ header {
     padding-top:15px;
 }
 
-.MesActions a {
-    visibility:hidden;
+/*section solution h4*/
+.Solution h4 {
+    font-weight: 500;
+    font-size: 13px;
+    font-weight: 700; 
+    margin-left: 20px;
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
+/*section solution wireframe img*/
+.WireframeImg img {
+    width: 40%;
+    object-fit: cover;
+    padding-left: 25px;
+    padding-top:20px;
+}
 
+.IdeationImg img {
+    object-fit: cover;
+    padding-left: 25px;
+    padding-top:20px;
+}
+
+/*section perspective*/
+.perspective ul {
+    font-size: 14px;
+    font-weight: 500; 
+    margin-left:25px;
+}

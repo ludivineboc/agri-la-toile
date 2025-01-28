@@ -73,6 +73,25 @@ li{
 	width: 100%
 }
 
+.titre {
+    font-size: 24px;
+    font-weight: bold;
+    position:relative;
+    margin-left: 16px;
+}
+
+.titre::before {
+    content:"";
+    width: 64px;
+    height: 64px;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    background-color: #DBE9D9;
+    top: -16px;
+    left:-16px;
+    z-index: -1;
+}
+
 /*HEADER*/
 .cercle{
     position: absolute;
@@ -203,6 +222,7 @@ h4{
  height: 100vh;
  position: absolute;
  opacity : 0;
+ transition: s;
 }
 .splineActive{
     opacity : 1;
@@ -236,13 +256,20 @@ h4{
 .bouleblache{
     width: 30%;
     background-color: #ffffff;
-    border-radius: 190px;
-    padding: 40px;
+    border-radius: 199px;
+    padding: 50px;
     margin-bottom: 100px;
+}
+.bouleblache h4{
+    font-size: 70px;
 }
 
 .backgroudimage{
     background-image: url(Assets/image\ 3.png) ;
+}
+.backgroudimage h3{
+    color: white;
+    margin-top: 50px;
 }
 
 /*Ils ont rejoint la coopérative*/
@@ -261,41 +288,9 @@ h4{
 }
 
 /*Footer*/
-.cirleFooter1{
-    background-color: #697966;
-    position: absolute;
-    border-radius: 300px;
-    /*box-shadow: 0 0 1000px 45px ;*/
-    left: 300px;
-    top: 4400px;
-    width: 300px;
-    height: 300px;
-    z-index: 1;
-}
-.cirleFooter2{
-    background-color: #697966;
-    position: absolute;
-    border-radius: 300px;
-    /*box-shadow: 0 0 1000px 45px ;*/
-    left: 800px;
-    top: 4400px;
-    width: 200px;
-    height: 200px;
-    z-index: 1;
-}
-.cirleFooter3{
-    background-color: #697966;
-    position: absolute;
-    border-radius: 300px;
-    /*box-shadow: 0 0 1000px 45px ;*/
-    left: 300px;
-    top: 4400px;
-    width: 300px;
-    height: 300px;
-    z-index: 1;
-}
+
 .bgFooter{
-    background-color: #83B27B;
+    background-image: url(Assets/background\ color\ green.png);
     width: 100%;
     margin: none;
 }
