@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Inter", serif;
+    font-family: "Montserrat", serif;
     box-sizing: border-box;
   }
   
@@ -38,13 +38,22 @@
       font-weight: 600;
   }
 
-  .container
+  .container {
+    max-width: 1000px;
+	margin: auto;
+	width: 100%
+  }
+
+  .width30{
+	width : 30%;
+}
+
 /*********************************PAGE DOCUMENTATION******************************/
 
 /*DEMI CERCLE EN HAUT DE LA PAGE*/
-.cercle{
+.cercle {
     position: absolute;
-    background-color: #EDF4EC;
+    background-color: DBE9D9;
     border-radius: 1000px;
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 0px;
@@ -54,9 +63,24 @@
     z-index: -1;
 }
 
+/*****************************************HEADER PAGE LANDING************************************/
+header {
+    padding: 20px 40px;
+}
+.btnAccueil {
+    color: black;
+    font-size: 14px;
+}
+.btnDon {
+    background-color: #83B27B;
+    font-size: 14px;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 30px;
+}
 
 /******************************SECTION TITRE DOCUMENTATION**************************/
-.titre h1 {
+.titres h1 {
     color: black;
     font-family: "Quicksand", serif;
     font-weight: 700;
@@ -65,7 +89,7 @@
     text-align: center;
 }
 
-.titre h2 {
+.titres h2 {
     color: black;
     font-family: "Quicksand", serif;
     font-weight: 600;
@@ -74,22 +98,38 @@
     text-align: center;
 }
 
-.cerclerond{
-    border-bottom-right-radius: 100px;
-    height: 100px;
-    width: 100px;
+.titre {
+    font-size: 24px;
+    font-weight: bold;
+    position:relative;
+    margin-left: 16px;
+}
+
+.titre::before {
+    content:"";
+    width: 64px;
+    height: 64px;
+    border-radius: 0 0 100% 0;
     position: absolute;
-    background-color: #EDF4EC;
-    /*box-shadow: 0 0 1000px 45px ;*/
-    left: 110px;
-    top: 878px;
+    background-color: #DBE9D9;
+    top: -16px;
+    left:-16px;
     z-index: -1;
 }
 
-.lesTitres {
-    .container{
-        max-width: 1000px;
-        margin: auto;
-        width: 100%
-    }
+
+
+
+
+/*****************************SECTION MENU LATERAL GAUCHE**************************/
+.sommaire {
+width:250px;
+height: 350px;
+background-color: #DBE9D9;
+}
+
+.monSommaire a {       
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
 }

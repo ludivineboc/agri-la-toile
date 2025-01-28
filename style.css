@@ -158,8 +158,8 @@ h3{
     cursor: pointer;
 }
 .divEtapes.actives{
-    
     background-color: #aae79f;
+    transition: 0.5s;
    
   
 }
@@ -221,13 +221,54 @@ h4{
 
 /*Quelque chiffres*/
 
+.bouleblache{
+    width: 30%;
+    background-color: #83B27B;
+    border-radius: 190px;
+    padding: 40px;
+    margin-bottom: 100px;
+}
 
-
-
+.backgroudimage{
+    background-image: url(Assets/image\ 3.png) ;
+}
 
 /*Footer*/
+.cirleFooter1{
+    background-color: #697966;
+    position: absolute;
+    border-radius: 300px;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 300px;
+    top: 3475px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+.cirleFooter2{
+    background-color: #697966;
+    position: absolute;
+    border-radius: 300px;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 800px;
+    top: 3475px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+.cirleFooter3{
+    background-color: #697966;
+    position: absolute;
+    border-radius: 300px;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 300px;
+    top: 3475px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
 .bgFooter{
-    background-color: #aae79f;
+    background-color: #83B27B;
     width: 100%;
     margin: none;
 }
@@ -236,12 +277,14 @@ footer p{
     font-weight: 700;
     color: white;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 150px;
+    z-index: 2;
 }
 footer img{
     width: 48%;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    z-index: 2;
 
 }
 
