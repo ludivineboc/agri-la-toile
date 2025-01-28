@@ -15,9 +15,10 @@
 <body>
     <!-- nav -->
     <div class="cercle"></div>
-    <header>
-        <nav>
-            <ul class="width30 flex spaceBetween alignItems">
+    <header class="flex spaceBetween alignItems">
+        <img src="Assets/logo.png" class="logo" alt="">
+        <nav class="width30">
+            <ul class="flex spaceBetween alignItems">
                 <a href="" class="btnAccueil">
                     <li>Accueil</li>
                 </a>
@@ -34,7 +35,8 @@
     <section class="">
         <div class="column divHero textAlign marginSection">
             <h1 data-aos="fade-up">Pour une agriculture durable</h1>
-            <H2 data-aos="fade-up" data-aos-delay="300">accroche: peut etre faire apparaitre le mot <br> cooperativ et cajette dedans</H2>
+            <H2 data-aos="fade-up" data-aos-delay="300">accroche: peut etre faire apparaitre le mot <br> cooperativ et
+                cajette dedans</H2>
             <div class="flexspace spaceBetween widthApp">
                 <img src="Assets/google play.png" class="appGA" alt="">
                 <img src="Assets/app store.png" class="appGA" alt="">
@@ -82,8 +84,12 @@
         <h2 class="bold">Ce qu’on vous propose ? </h2>
         <div class="container flex marginSection alignItems">
 
-            <div class="width50 ">
-                <img src="Assets/etape 2.png" class="spline" alt="">
+            <div id="images" class="width50  relative">
+                <img src="Assets/accueil-preview.png" class="spline" alt="">
+                <img src="Assets/cagettes-previews.png" class="spline" alt="">
+                <img src="Assets/detail-preview.png" class="spline" alt="">
+                <img src="Assets/form-mise-en-vente-preview.png" class="spline" alt="">
+                <img src="Assets/mise-en-vente-preview.png" class="spline" alt="">
             </div>
             <div class="width50">
 
@@ -172,9 +178,49 @@
             </div>
         </div>
     </section>
-    <!-- nos services -->
-    <section class="container">
-        <h3>Nos services</h3>
+    <!-- ils ont rejoint la coopérative -->
+    <section>
+        <div class="container">
+            <h3>Ils ont rejoint la coopérative</h3>
+            <div class="flex spaceBetween">
+                <div class="width30 ilontrejoitcarte">
+                    <div class="flex spaceBetween alignItems malk">
+                        <img src="Assets/Rectangle 1.png" alt="">
+                        <div class="withimg alignItems">
+                            <p>Henry Wiegand</p>
+                            <div> ★★★★★</div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore ut officia qui dolorem
+                        facilis, rem ad. Distinctio totam repellat qui ipsum expedita, non voluptatum voluptatibus
+                        recusandae quos. Quasi, aspernatur?</p>
+                </div>
+                <div class="width30 ilontrejoitcarte">
+                    <div class="flex spaceBetween alignItems malk">
+                        <img src="Assets/Rectangle 2.png" alt="">
+                        <div class="withimg alignItems">
+                            <p>Jean McDermott</p>
+                            <div> ★★★★☆</div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia numquam adipisci excepturi
+                        dolor suscipit nemo praesentium iusto, velit expedita maxime id debitis, beatae nobis voluptate
+                        voluptatem doloribus enim consectetur. In.</p>
+                </div>
+                <div class="width30 ilontrejoitcarte">
+                    <div class="flex spaceBetween alignItems malk">
+                        <img src="Assets/Rectangle 3.png" alt="">
+                        <div class="withimg alignItems">
+                            <p>Victoria Breitenberg</p>
+                            <div> ★★★★☆</div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio nisi debitis perferendis
+                        blanditiis maiores distinctio consequatur minus odio facere, suscipit, ducimus eveniet! Facilis
+                        esse error ipsam, est accusamus dolore.</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- footer -->
     <div class="cirleFooter1"></div>
@@ -194,7 +240,7 @@
     <script src="app.js" defer></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>

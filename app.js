@@ -6,8 +6,9 @@ let etape5 = document.getElementById("etape5");**/
 
 
 let etapes = document.querySelectorAll("#etapes div")
+let images = document.querySelectorAll ("#images img")
 // pour chacunes des etapes
-etapes.forEach(etape =>{    
+etapes.forEach((etape) =>{    
     // => je ecoute le click
     etape.addEventListener("click",()=>{
         // deselectionner celle qui est deja active
@@ -15,8 +16,17 @@ etapes.forEach(etape =>{
         active.classList.remove("actives")
         // => ca ajoute la classe active sur la div sur laquelle j'ai cliqué
         etape.classList.add("actives")
+    
     })
+})
+images.forEach((image) =>{
+    image.addEventListener("click",()=>{
+        let opacity = document.querySelector(".splineActive")
+        opacity.classList.remove("splineActive")
+        image.classList.add("splineActive")
 
+    })
+    
 })
 
 

@@ -1,20 +1,22 @@
 <!-- Votre page de documentation -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cagettes</title>
+    <title>Cagette</title>
     <link rel="stylesheet" href="docu.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
 </head>
+
 <body>
     <div class="cercle"></div>
 
     <header>
         <nav>
-            <ul class=" flex spaceBetween alignItems">
+            <ul class="width30 flex spaceBetween alignItems">
                 <a href="" class="btnAccueil">
                     <li>Accueil</li>
                 </a>
@@ -30,44 +32,95 @@
 
 
 
-  <div class="titres">
-    <h1>DOCUMENTATION</h1>
-    <h2>La lutte contre la faim</2>
-</div>
-
-
-<section>
-    <div class="flex spaceBetween sommaire">     
-        <div class="monSommaire ">
-            <ul class="flex spaceBetween bold ">
-                <li>
-                    <a href="#Problematique">Produits</a>
-                </li>
-                <li>
-                    <a href="#Persona">Bienfaits du miel</a>
-                </li>
-                <li>
-                    <a href="#User flow">Engagement</a>
-                </li>
-                <li>
-                    <a href="#Solutions">Nous contacter</a>
-                </li>
-                <li>
-                    <a href="#Tests utilisateurs">Nous contacter</a>
-                </li>
-                <li>
-                    <a href="#Perspectives d'evolution">Nous contacter</a>
-                </li>
-            </ul>
-        </div>
+    <div class="titres">
+        <h1>DOCUMENTATION</h1>
+        <h2>La lutte contre la faim</2>
     </div>
- 
-   
-    <div>
-        <h3 class="titre">CONTEXTE</h3>        
+
+
+    <section class="flex">
+        <div class=" sommaire flex spaceBetween">
+            <div class="monSommaire">
+                <ol class="flex spaceBetween bold ">
+                    <li>
+                        <a href="#Problematique">Problematique</a>
+                    </li>
+                    <li>
+                        <a href="#Persona">Persona</a>
+                    </li>
+                    <li>
+                        <a href="#User flow">User flow</a>
+                    </li>
+                    <li>
+                        <a href="#Solutions">Solutions</a>
+                    </li>
+                    <li>
+                        <a href="#Tests utilisateurs">Tests utilisateurs</a>
+                    </li>
+                    <li>
+                        <a href="#Perspectives d'evolution">Perspectives d'évolution</a>
+                    </li>
+                </ol>
+            </div>
         </div>
-   
+
+
+        <div class="divGenerale">
+
+            <section class="leContexte bottom">
+                <h3 class="titre">CONTEXTE</h3>
+                <p>Augmenter les revenus des petits producteurs alimentaires.</p>
+            </section>
+
+            <section class="leProbleme bottom">
+                <h3 class="titre">PROBLEMATIQUE</h3>
+                <p>Comment permettre à Thomas d’optimiser l’écoulement de ses stocks, pour garantir des ventes régulières et rentables sans perte ?</p>
+            </section>
+
+            <section class="leBenchmark bottom">
+                <h3 class="titre">BENCHMARK</h3>
+                <p>Au cours de notre veille comparative, nous avons remarqué des similarités.
+                    de nos idées avec des applis existantes. 
+                    Nous nous en sommes inspirés, afin de faire évoluer notre idée de base. Pour exemple, le site d’Hello Fresh, nous a fait avoir une tout autre approche de notre application , sur quelques points comme:
+                    la simplicité de navigation
+                    </p>
+            </section>
+
+            <section class="lePersona bottom">
+                <h3 class="titre">LE PERSONA</h3>
+                <img src="Assets/Persona.png" class="logo" alt="">               
+            </section>
+
+
+            <section class="User bottom">
+                <h3 class="titre">USER FLOW</h3>
+
+                <div class="MesActions">
+                    <ol class="flex spaceBetween bold ">
+                        <li>
+                            <a href="#">Vous recevez les commandes de la coopératice</a>
+                        </li>
+                        <li>
+                            <a href="#">Vous remplissez les cagettes avec vos produits</a>
+                        </li>
+                        <li>
+                            <a href="#">Vous finalisez le remplissage de la cagette</a>
+                        </li>
+                        <li>
+                            <a href="#">Vous recevez une notification de mise à jour de votre stock</a>
+                        </li>
+                        <li>  
+                                                                          </ol>
+                </div>                             
+            </section>
+
+
+
+
+        </div>
+
     </section>
- 
+
 </body>
+
 </html>

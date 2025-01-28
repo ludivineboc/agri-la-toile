@@ -12,6 +12,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.logo{
+    width : 20%
+}
 .alignItems{
     align-items: center;
 }
@@ -198,12 +201,21 @@ h4{
 /*Ce qu’on vous propose ?*/
 .spline{
  height: 100vh;
+ position: absolute;
+ opacity : 0;
+}
+.splineActive{
+    opacity : 1;
 }
 .marginMarche{
     margin-bottom: 20px;
 }
 .liMarche{
     margin-bottom: 20px;
+}
+.relative{
+    position: relative;
+    top: -250px;
 }
 
 
@@ -223,7 +235,7 @@ h4{
 
 .bouleblache{
     width: 30%;
-    background-color: #83B27B;
+    background-color: #ffffff;
     border-radius: 190px;
     padding: 40px;
     margin-bottom: 100px;
@@ -233,6 +245,21 @@ h4{
     background-image: url(Assets/image\ 3.png) ;
 }
 
+/*Ils ont rejoint la coopérative*/
+.ilontrejoitcarte{
+    gap: 12px;
+    margin-bottom: 100px;
+}
+.ilontrejoitcarte img{
+    width: 30%;
+}
+.malk{
+    margin-bottom: 30px;
+}
+.withimg{
+    width: 65%;
+}
+
 /*Footer*/
 .cirleFooter1{
     background-color: #697966;
@@ -240,7 +267,7 @@ h4{
     border-radius: 300px;
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 300px;
-    top: 3475px;
+    top: 4400px;
     width: 300px;
     height: 300px;
     z-index: 1;
@@ -251,7 +278,7 @@ h4{
     border-radius: 300px;
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 800px;
-    top: 3475px;
+    top: 4400px;
     width: 200px;
     height: 200px;
     z-index: 1;
@@ -262,7 +289,7 @@ h4{
     border-radius: 300px;
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 300px;
-    top: 3475px;
+    top: 4400px;
     width: 300px;
     height: 300px;
     z-index: 1;
