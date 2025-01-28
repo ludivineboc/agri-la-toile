@@ -38,10 +38,10 @@
       font-weight: 600;
   }
 
+  .container
 /*********************************PAGE DOCUMENTATION******************************/
 
-
-
+/*DEMI CERCLE EN HAUT DE LA PAGE*/
 .cercle{
     position: absolute;
     background-color: #EDF4EC;
@@ -55,15 +55,41 @@
 }
 
 
-
-
-
-
-.titre {
+/******************************SECTION TITRE DOCUMENTATION**************************/
+.titre h1 {
     color: black;
     font-family: "Quicksand", serif;
-    font-weight: 900;
-    font-size: 26px;
-    margin-top: 80px;
-text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 400px;
+    text-align: center;
+}
+
+.titre h2 {
+    color: black;
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.cerclerond{
+    border-bottom-right-radius: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: #EDF4EC;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 110px;
+    top: 878px;
+    z-index: -1;
+}
+
+.lesTitres {
+    .container{
+        max-width: 1000px;
+        margin: auto;
+        width: 100%
+    }
 }

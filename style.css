@@ -228,14 +228,21 @@ h4{
 /*Footer*/
 .bgFooter{
     background-color: #aae79f;
-    height: 100vh;
     width: 100%;
+    margin: none;
 }
 footer p{
     font-family: "Quicksand", serif;
     font-weight: 700;
     color: white;
     font-size: 30px;
+    margin-top: 50px;
+}
+footer img{
+    width: 48%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
 }
 
 
