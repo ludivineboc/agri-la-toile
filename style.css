@@ -5,6 +5,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.gap{
+    gap: 15px;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -18,6 +21,12 @@
 .colorTexte{
     color: #83B27B;
     
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
 }
 .bgColVert{
     background-color: #83B27B;
@@ -36,6 +45,9 @@ body{
 }
 .width50{
 	width : 50%;
+}
+.width20{
+	width : 20%;
 }
 .width30{
 	width : 30%;
@@ -71,43 +83,54 @@ li{
     z-index: -1;
 }
 
+
 header{
     padding: 20px 40px;
 }
 .btnAccueil{
-    background-color: rgb(255, 255, 255);
-    padding: 16px 24px;
     color: black;
-}
-.btnAccueil:hover{
-    background-color: rgb(217, 217, 217);
-    padding: 16px 24px;
-    color: black;
-    transition: 0.3s;
+    font-size: 14px;
 }
 .btnDon{
     background-color: #83B27B;
+    font-size: 14px;
     color: #fff;
     padding: 14px 20px;
     border-radius: 30px;
 }
-
 /*Hero*/
 .imgHero{
+    width: 70%;
+    margin-top: 30px;
+}
+.arrow{
+    display: inline-block;
+    margin-top: 50px;
+}
+.divHero{
     width: 50%;
+    margin: auto;
+}
+.textAlign{
+    text-align: center;
 }
 h1{
     font-family: "Quicksand", serif;
-    font-weight: 900;
-    font-size: 36px;
-    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    color: #504444;
     font-weight: bolder;
 }
 h2{
     font-family: "Quicksand", serif;
-    font-weight: 900;
-    font-size: 36px;
-    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    color: #504444;
+    margin-top: 20px;
+}
+.appGA{
+ width: 20%;
+ margin-top: 20px;
 }
 .cta{
     background-color: #fff;
@@ -117,27 +140,48 @@ h2{
     border-radius: 30px;
     display:inline-block
 }
-/*comment ca marche*/
-.spline{
- height: 100vh;
-}
-.marginMarche{
-    margin-bottom: 20px;
-}
-.liMarche{
-    margin-bottom: 20px;
-}
-/*Les chiffres*/
+
+
+/*comment ça marche ?*/
 h3{
-    color: #83B27B;
+    color: black;
     font-family: "Quicksand", serif;
     font-weight: 900;
     font-size: 26px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
+.divEtapes{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.divEtapes.actives{
+    
+    background-color: #aae79f;
+   
+  
+}
+.cerclerond{
+    border-bottom-right-radius: 100px;
+
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: #aae79f;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 110px;
+    top: 878px;
+    z-index: -1;
+}
+
 h4{
     margin-bottom: 30px;
+}
+
+.textAligncenter{
+    text-align: center;
 }
 .paraChiffre{
     font-size: 14px;
@@ -148,3 +192,51 @@ h4{
     padding: 20px;
     border-radius: 10px;
 }
+
+
+
+/*Ce qu’on vous propose ?*/
+.spline{
+ height: 100vh;
+}
+.marginMarche{
+    margin-bottom: 20px;
+}
+.liMarche{
+    margin-bottom: 20px;
+}
+
+
+/*section Pourquoi rejoindre agricoop ? */
+
+.paraChiffre{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.cardChiffres{
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Quelque chiffres*/
+
+
+
+
+
+/*Footer*/
+.bgFooter{
+    background-color: #aae79f;
+    height: 100vh;
+    width: 100%;
+}
+footer p{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+
+
+

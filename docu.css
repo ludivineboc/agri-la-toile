@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+/*PROPRIETES GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+      text-decoration: none; /*Enleve les surlignements des a*/
+      color: black; /*Mettre en noir tout les a de la page*/
+  }
+  
+  li {
+      list-style-type: none; /*Enleve les puces des li*/
+  }
+  
+  .bgvert {
+      background-color: #EDF4EC;
+  }
+  
+  .flex {
+      display: flex; 
+      flex-wrap: wrap; 
+  }
+  
+  .spaceBetween {
+      justify-content: space-between; /*Mettre des espaces*/
+  }
+  
+  .alignCenter {
+      align-items: center;
+  }
+  
+  .bold {
+      font-weight: 600;
+  }
+
+/*********************************PAGE DOCUMENTATION******************************/
+
+
+
+.cercle{
+    position: absolute;
+    background-color: #EDF4EC;
+    border-radius: 1000px;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 0px;
+    top: -900px;
+    width: 100%;
+    height: 1500px;
+    z-index: -1;
+}
+
+
+
+
+
+
+.titre {
+    color: black;
+    font-family: "Quicksand", serif;
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 80px;
+text-align: center;
+}
