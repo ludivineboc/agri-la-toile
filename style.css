@@ -247,9 +247,15 @@ h2{
     z-index: -1;
 }
 .bgBande{
-    background-image: url(assets/pointierr.png);
+    background-image: url(assets/chemin.png);
+    width: 100%;
+    
     background-repeat: no-repeat;
     background-position: center;
+}
+.marginRapidement{
+    margin-right: 10px;
+    display: inline-block;
 }
 h3{
     color: black;
@@ -368,9 +374,30 @@ h4{
     width: 100%;
     object-fit: cover;
     height: 150px;
+    filter : brightness(50%);
 }
 .cardChiffres h4{
     margin-bottom: 10px;
+}
+.card{
+    position: relative;
+    display: block;
+    color: white;
+    border-radius: 23px;
+    background-color: #ffffff5e;
+}
+
+
+
+.card h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px black;
+
 }
 /*Quelque chiffres*/
 
