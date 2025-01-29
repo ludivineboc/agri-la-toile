@@ -58,6 +58,9 @@ body{
 .width30{
 	width : 30%;
 }
+.width47{
+	width : 47%;
+}
 .width100{
     width: 100%;
 }
@@ -269,10 +272,15 @@ h4{
     margin-bottom: 20px;
 }
 .cardChiffres2{
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(243, 243, 243);
     padding: 20px;
     border-radius: 30px;
     
+}
+
+.arrowcolortrp{
+   
+    font-size: 33px;
 }
 
 
@@ -386,10 +394,9 @@ footer img{
 .bgblack{
     background-color: black;
     text-align: center;
-    height: 80px;
     color: white;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .bgblack p{
