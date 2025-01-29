@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Cagette | Accueil</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./node_modules/aos/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
     <link rel="icon" href="Assets/favicon.png">
@@ -37,7 +37,7 @@
         <a href="#top"><img class="flecheHaut" src="Assets/Arrow 1.png" alt=""></a>
         <div class="column divHero textAlign">
             <h1 data-aos="fade-up">Pour une agriculture durable</h1>
-            <h2 data-aos="fade-up" data-aos-delay="300">Dans nos coopératives, chaque cagette de légumes raconte
+            <h2 data-aos="fade-up" data-aos-delay="300">Dans nos coopératives, chaque Cagette de légumes raconte
                 l’histoire d’une culture locale et solidaire, fraîchement cueillie pour vous !<br> </h2>
             <div class="flexspace spaceBetween widthApp">
                 <img src="Assets/google play.png" class="appGA" alt="">
@@ -51,40 +51,45 @@
     </section>
     </section>
     <!--section comment ça marche-->
-    <section class="container">
+    <section class="bgBande">
+        <div class="container">
+            <h3 id="arrive" class="titre">Comment ça marche ?</h3>
 
-        <h3 id="arrive" class="titre">Comment ça marche ?</h3>
+
+            <div class="flex spaceBetween alignItems">
+                <div class="width20 column cardChiffres2">
+                    <img src="Assets/grange.png" alt="">
+                    <h4>Vous adhérez à la coopérative</h4>
+                </div>
+                
+
+                <div class="width20 cardChiffres2">
+                    <img src="Assets/notification.png" alt="">
+                    <h4>Vous recevez une commande de Cagette</h4>
+                </div>
+                
+
+                <div class="width20 cardChiffres2">
+                    <img src="Assets/remplissage.png" alt="">
+                    <h4>Vous remplissez la Cagette avec vos produits</h4>
+                </div>
+                
+
+                <div class="width20 cardChiffres2">
+                    <img src="Assets/joindre.png" alt="">
+                    <h4>La Cagette est complétée par les autres producteurs</h4>
+                </div>
 
 
-        <div class="flex spaceBetween alignItems">
-            <div class="width20 column cardChiffres2">
-                <h4>Vous adhérez à la coopérative</h4>
             </div>
-            <i class="fa-solid fa-arrow-right arrowcolortrp"></i>
-
-            <div class="width20 cardChiffres2">
-                <h4>Vous recevez une commande de cagette</h4>
-            </div>
-            <i class="fa-solid fa-arrow-right arrowcolortrp"></i>
-
-            <div class="width20 cardChiffres2">
-                <h4>Vous remplissez la cagette avec vos produits</h4>
-            </div>
-            <i class="fa-solid fa-arrow-right arrowcolortrp"></i>
-
-            <div class="width20 cardChiffres2">
-                <h4>La cagette est complétée par les autres producteurs</h4>
-            </div>
-
-
+            <h3 class="textAligncenter bold">Vos produits vendus au bon prix! </h3>
         </div>
-        <h3 class="textAligncenter bold">Vos produits vendus au bon prix ! </h3>
     </section>
 
     <!--Ce qu’on vous propose ?-->
     <section class="container  marginSection">
         <div class="cercleEtapes"></div>
-        <h2 class="bold titre">Ce qu’on vous propose ? </h2>
+        <h2 class="bold titre">Ce qu’on vous propose? </h2>
         <div class="container flex alignItems">
             <div class="cercleEtapes"></div>
 
@@ -105,7 +110,7 @@
                         <p>étape 2 : Traitez vos commandes</p>
                     </div>
                     <div id="etape3" class="divEtapes">
-                        <p>étape 3 : Créez vos cagettes</p>
+                        <p>étape 3 : Créez vos Cagettes</p>
                     </div>
                     <div id="etape4" class="divEtapes">
                         <p>étape 4 : Surveillez l'évolution de vos ventes </p>
@@ -134,7 +139,7 @@
                 <img src="Assets/gaspillage_alimentaire.jpg" alt="">
                 <h4>Ensemble pour réduire le gaspillage alimentaire :</h4>
                 <p class="paraChiffre">
-                    Le partage de valeurs communes, en travaillant ensemble , dans le but d’éviter le gaspillage
+                    Le partage de valeurs communes, en travaillant ensemble, dans le but d’éviter le gaspillage
                     alimentaire(éviter les pertes de produits déclassés) et ainsi augmenter ses revenus.
                 <p>
                     <!--<a href="" class="btnDon"> Voir le détail <i class="fa-solid fa-arrow-right"></i></a> bouton voir detail facultatif-->
@@ -172,7 +177,7 @@
                 </div>
                 <div data-aos="fade-up" data-aos-delay="400" class="bouleblache">
                     <h4>4200</h4>
-                    <p>Hectars de champs agricoles
+                    <p>Hectares de champs agricoles
                         exploités</p>
                 </div>
 
@@ -219,8 +224,7 @@
                             <div> ★★★★☆</div>
                         </div>
                     </div>
-                    <p>Le plus dur c’est le début. Quand vous ne connaissez pas forcément tout le monde, mais une fois
-                        ce cap passé c’est vraiment agréable.</p>
+                    <p>J'ai été vraiment impressionnée par la qualité du service et des produits. Une expérience agréable, je recommande vivement!</p>
                 </div>
             </div>
         </div>
@@ -231,7 +235,7 @@
     <div class="cirleFooter3"></div>
     <footer>
         <div class="bgFooter flex column alignItems">
-            <p class="textAlign">Faites comme Victor, Magalie et Gwendolyne <br>rejoignez La Cagette</p>
+            <p class="textAlign">Faites comme Victor, Magalie et Gwendolyne <br>Rejoignez La Cagette</p>
             <div class="width30 flex spaceBetween">
                 <img src="Assets/google play blanc.png" class="" alt="">
                 <img src="Assets/app store blanc.png" class="" alt="">
@@ -242,8 +246,8 @@
     <div class="bgblack">
         <p>Site crée par nous, mentions légales <i class="fa-regular fa-copyright"></i></p>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"></script>
+
+    <script src="./node_modules/aos/dist/aos.js"></script>
     <script src="app.js" defer></script>
     <script>
         AOS.init();

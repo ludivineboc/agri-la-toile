@@ -124,9 +124,7 @@ header{
     z-index: 2;
 }
 header.scrolled{
-    background-color: hsl(0, 0%, 100%);
-
-    
+    background-color: white;   
 }
 .btnAccueil{
     color: black;
@@ -156,8 +154,8 @@ header.scrolled{
 .flecheHaut{
     width: 3%;
     position: fixed;
-    top: 465px;
-    left: 1185px;
+    bottom: 64px;
+    right: 64px;
     z-index: 1;
     transform: rotate(180deg);
 }
@@ -239,7 +237,7 @@ h2{
 
 /*comment ça marche ?*/
 .cercleEtapes{
-    background-color: #aae79f;
+    background-color: #dbe9d9;
     width: 300px;
     height: 300px;
     position: absolute;
@@ -247,6 +245,11 @@ h2{
     top: 1500px;
     border-radius: 200px;
     z-index: -1;
+}
+.bgBande{
+    background-image: url(assets/pointierr.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h3{
     color: black;
@@ -300,6 +303,16 @@ h4{
     padding: 20px;
     border-radius: 30px;
     
+}
+
+.cardChiffres2 h4{
+    font-weight: 400;
+}
+
+.cardChiffres2 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .arrowcolortrp{
@@ -436,6 +449,5 @@ footer img{
 .bgblack p{
     font-weight: 300;
 }
-
 
 
