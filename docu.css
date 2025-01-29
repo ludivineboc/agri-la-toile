@@ -35,7 +35,7 @@
   }
   
   .bold {
-      font-weight: 600;
+      font-weight: 700;
   }
 
   .container {
@@ -63,21 +63,26 @@
 /*********************************PAGE DOCUMENTATION******************************/
 
 /*DEMI CERCLE EN HAUT DE LA PAGE*/
-.cercle {
+/*HEADER*/
+.cercle{
     position: absolute;
-    background-color: #DBE9D9;
-    border-radius: 1000px;   
-    left: 0px; 
-    top: -900px;
+    background-color: #aae79f;
+    border-radius: 1000px;
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 0px;
+    top: -1064px;
     width: 100%;
-    height: 1200px;
+    height: 1500px;
     z-index: -1;
 }
 
-/*****************************************HEADER PAGE LANDING************************************/
-header {
-    padding: 20px 40px;   
+
+header{
+    padding: 8px 64px;
 }
+
+/*****************************************HEADER PAGE LANDING************************************/
+
 
 .btnAccueil {
     color: black;
@@ -176,6 +181,7 @@ header {
     font-weight: 500; 
     margin-left:25px;
     padding-top: 20px;
+    line-height: 25px;
 }
 
 /*l'image du persona*/
@@ -188,13 +194,17 @@ header {
 
 /*section user flow*/
 .MesActions {
-    width: 40%;
+    width: 50%;
     font-weight: 500;
     font-size: 13px;
     font-weight: 500; 
     margin-left: 15px;
     line-height: 30px;
     padding-top:15px;
+}
+
+.MesActions li {
+    margin-left:20px;
 }
 
 .User li {
@@ -207,8 +217,7 @@ header {
     font-size: 13px;
     font-weight: 700; 
     margin-left: 20px;
-    margin-top:15px;
-    margin-bottom:15px;
+    margin-top:20px;   
 }
 
 /*section solution wireframe img*/
