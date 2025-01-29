@@ -76,14 +76,19 @@
     z-index: -1;
 }
 
-
 header{
     padding: 8px 64px;
+    position: sticky;
+    top: 0;
 }
 
+header.scrolled{
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+
 /*****************************************HEADER PAGE LANDING************************************/
-
-
 .btnAccueil {
     color: black;
     font-size: 14px;
@@ -97,7 +102,7 @@ header{
 }
 
 .logo{
-    width : 20%
+    width : 15%
 }
 
 /******************************SECTION TITRE DOCUMENTATION**************************/
@@ -139,7 +144,6 @@ header{
     z-index: -1;
 }
 
-
 /*****************************SECTION MENU LATERAL GAUCHE**************************/
 .sommaire {
     padding:10px;
@@ -155,7 +159,12 @@ header{
     font-size: 13px;
     font-weight: 500; 
     margin-left: 15px;
-    line-height:40px;
+    line-height:40px;    
+}  
+
+.sommaire{
+   position : sticky;
+    top: 112px;
 }
 
 .monSommaire li {
@@ -165,8 +174,7 @@ header{
 
 /*****************************SECTION GENERAL DE LA PAGE**************************/
 .divGenerale {
-    width: 80%;
-    border: 1px solid blue;
+    width: 80%;   
     margin-left: 30px;
     margin-top: 15px;
 }
@@ -192,24 +200,28 @@ header{
     margin-top:40px;
 }
 
-/*section user flow*/
-.MesActions {
-    width: 50%;
-    font-weight: 500;
-    font-size: 13px;
+/***********************************SECTION LE BENCHMARK************************/
+.leBenchmark ul {
+    margin-left: 20px;
+}
+
+
+.leBenchmark p {
+  padding-bottom:20px;
+  padding-left:10px;
+  margin-left:2px;
+  font-weight: 600;
+}
+
+.leBenchmark li {
+    font-size: 14px;
     font-weight: 500; 
-    margin-left: 15px;
+    list-style: circle;
     line-height: 30px;
-    padding-top:15px;
 }
 
-.MesActions li {
-    margin-left:20px;
-}
 
-.User li {
-    list-style: decimal;
-}
+
 
 /*section solution h4*/
 .Solution h4 {
@@ -253,3 +265,34 @@ header{
     list-style: circle;
 }
 
+/*********************************SECTION TESTS UTILISATEURS**************************/
+.testUtilisateur h4 {
+    font-weight: 500;
+    font-size: 13px;
+    font-weight: 700; 
+    margin-left: 20px;
+    margin-top:20px;  
+}
+
+.testUtilisateur p {
+    font-size: 14px;
+    font-weight: 500; 
+    margin-left:25px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.testUtilisateur li {
+    margin-left:20px;
+}
+
+.profil p {
+    font-size: 17px;
+    font-weight: 600; 
+}
+
+
+.tailleImage{
+    width: 30%;
+    height: 30%;
+}

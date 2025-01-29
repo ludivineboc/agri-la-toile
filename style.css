@@ -55,6 +55,9 @@ body{
 .width20{
 	width : 20%;
 }
+.width23{
+	width : 25%;
+}
 .width30{
 	width : 30%;
 }
@@ -80,7 +83,7 @@ li{
 }
 
 .titre {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     position:relative;
     margin-left: 16px;
@@ -102,7 +105,7 @@ li{
 /*HEADER*/
 .cercle{
     position: absolute;
-    background-color: #aae79f;
+    background-color: #DBE9D9;
     border-radius: 1000px;
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 0px;
@@ -115,6 +118,15 @@ li{
 
 header{
     padding: 8px 64px;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+    z-index: 2;
+}
+header.scrolled{
+    background-color: hsl(0, 0%, 100%);
+
+    
 }
 .btnAccueil{
     color: black;
@@ -226,6 +238,16 @@ h2{
 
 
 /*comment ça marche ?*/
+.cercleEtapes{
+    background-color: #aae79f;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 250px;
+    top: 1500px;
+    border-radius: 200px;
+    z-index: -1;
+}
 h3{
     color: black;
     font-family: "Quicksand", serif;
@@ -240,16 +262,18 @@ h3{
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     cursor: pointer;
+    color: #000;
+    display: inline-block;
 }
 .divEtapes.actives{
-    background-color: #aae79f;
+    background-color: #83B27B;
+    color: #fff;
     transition: 0.5s;
    
   
 }
 .cerclerond{
     border-bottom-right-radius: 100px;
-
     height: 100px;
     width: 100px;
     position: absolute;
@@ -322,10 +346,15 @@ h4{
     padding: 15px;
     border-radius: 10px;
 }
+
+.marginTitre{
+    margin-top: 25px;
+}
 .cardChiffres img{
     border-radius: 12px;
     width: 100%;
     object-fit: cover;
+    height: 150px;
 }
 .cardChiffres h4{
     margin-bottom: 10px;
@@ -333,22 +362,27 @@ h4{
 /*Quelque chiffres*/
 
 .bouleblache{
-    width: 280px;
-    height: 280px;
+    width: 249px;
+    height: 249px;
     background-color: #ffffff;
     border-radius: 199px;
     padding: 50px;
     margin-bottom: 100px;
 }
 .bouleblache h4{
-    font-size: 60px;
+    font-size: 50px;
+    margin-bottom: 11px
 }
 
 .backgroudimage{
     background-image: url(Assets/image\ 3.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px 0;
+    position: relative;
+    z-index: -2;
 }
 .backgroudimage h3{
-    color: white;
     margin-top: 50px;
     
 }
