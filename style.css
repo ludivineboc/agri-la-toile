@@ -419,7 +419,7 @@ h4{
 }
 
 .backgroudimage{
-    background-image: url(Assets/image\ 3.png) ;
+    background-image: url(Assets/image3.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 16px 0;
@@ -451,7 +451,6 @@ h4{
 .bgFooter{
     background-image: url(Assets/background\ color\ green.png);
     width: 100%;
-    margin: none;
 }
 footer p{
     font-family: "Quicksand", serif;
