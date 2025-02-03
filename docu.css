@@ -59,7 +59,10 @@
 .width40{
 	width : 40%;
 }
-
+/*.repsonsive ou img-fluid*/
+.width80{
+    width: 80%;
+}
 .gap {
     gap:20px;
 }
@@ -333,20 +336,25 @@ header.scrolled{
 
 .perspective li {
     list-style: circle;
+    margin-top: 12px;
 }
 
 /*********************************SECTION TESTS UTILISATEURS AVANT ET APRES*********************************/
+
+
 .testUtilisateur h4 {
     font-weight: 500;
     font-size: 13px;
     font-weight: 700; 
     margin-left: 20px;
-    margin-top:20px;  
+    margin-top:20px;
+    margin-bottom:20px;  
 }
 
 .testUtilisateur h3 {
     margin-top:20px;
     margin-bottom:20px;
+    margin-left: 20px;
 }
 
 .testUtilisateur p {
@@ -358,55 +366,23 @@ header.scrolled{
 }
 
 /*div img photo avant et après*/
-.avantApres {
-    border:1px solid red;  
-}
 
 .global {
     padding: 15px;
     border-radius: 10px;
 }
 
-.card {
-    width: 250px;
-    position: relative;
-    display: block;
-   background-color: #DBE9D9;
+.global.flex {
+gap:16px;
 }
 
-.card h4 {
-    position: relative;
-    display: block;   
+.global h4 {
+    margin-top:20px;
 }
 
-.card img {
-    width: 250px; 
-    object-fit: cover;
-    padding-left: 25px;
-    padding-top:20px;   
+.global img {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.285);
 }
-
-.testUtilisateur li {
-    margin-left:20px;
-}
-
-.profil p {
-    font-size: 17px;
-    font-weight: 600; 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 section{
     scroll-margin-top: 128px;
@@ -416,13 +392,3 @@ section{
     margin-top: 64px;
 }
 
-
-/*.tailleImg{
-width: 30%;
-height:  30%;
-}
-
-.imgUser{
-    width: 18%;
-    height: 18%;
-}
