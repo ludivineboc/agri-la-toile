@@ -376,8 +376,7 @@ header.scrolled{
 
 .card h4 {
     position: relative;
-    display: block;
-    color: BLUE; 
+    display: block;   
 }
 
 .card img {
