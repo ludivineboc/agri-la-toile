@@ -387,7 +387,11 @@ h4{
     background-color: #ffffff5e;
 }
 
-
+.paraPourquoi{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
 
 .card h4{
     position: absolute;
