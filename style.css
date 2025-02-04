@@ -130,12 +130,41 @@ header.scrolled{
 .btnAccueil{
     color: black;
     font-size: 14px;
+    position: relative;
 }
-.btnAccueil:hover{
-    color: rgb(126, 126, 126);
-    font-size: 14px;
+.btnAccueil:after{
+    content: "";
+    position: absolute;
+    background-color: #618b59;
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: -8px;
     transition: 0.3s;
+    
 }
+.btnAccueil:hover:after{
+    width: 100%
+}
+
+.boutonQuiReste{
+    color: black;
+    font-size: 14px;
+    position: relative;
+}
+.boutonQuiReste:after{
+    content: "";
+    position: absolute;
+    background-color: #618b59;
+    height: 3px;
+    width: 100%;
+    left: 0%;
+    bottom: -8px;
+    transition: 0.3s;
+    
+}
+
+    
 .btnDon{
     background-color: #83B27B;
     font-size: 14px;

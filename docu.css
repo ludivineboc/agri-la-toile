@@ -59,6 +59,11 @@
 .width40{
 	width : 40%;
 }
+
+.width50{
+	width : 50%;
+}
+
 /*.repsonsive ou img-fluid*/
 .width80{
     width: 80%;
@@ -77,6 +82,10 @@
 
 .alignItems{
     align-items: center;
+}
+body{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
 }
 
 /*********************************PAGE DOCUMENTATION******************************/
@@ -109,9 +118,41 @@ header.scrolled{
 
 
 /*****************************************HEADER PAGE LANDING************************************/
-.btnAccueil {
+.btnAccueil{
     color: black;
     font-size: 14px;
+    position: relative;
+}
+.btnAccueil:after{
+    content: "";
+    position: absolute;
+    background-color: #618b59;
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: -8px;
+    transition: 0.3s;
+    
+}
+.btnAccueil:hover:after{
+    width: 100%
+}
+
+.boutonQuiReste{
+    color: black;
+    font-size: 14px;
+    position: relative;
+}
+.boutonQuiReste:after{
+    content: "";
+    position: absolute;
+    background-color: #618b59;
+    height: 3px;
+    width: 100%;
+    left: 0%;
+    bottom: -8px;
+    transition: 0.3s;
+    
 }
 .btnDon {
     background-color: #83B27B;
@@ -228,6 +269,7 @@ header.scrolled{
 }
 .P p {
     width: 70%;
+    margin-top:10px;
 }
 
 .leContexte h4 {
@@ -235,18 +277,23 @@ header.scrolled{
 }
 
 /********************************SECTION PROBLEMATIQUE********************************/
+.leProbleme {
+    width: 850px;  
+}
+
 .leProbleme p {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 500; 
-    margin-left:25px;
-    padding-top: 20px;
-    line-height: 25px;
+    margin-left: 115px;
+    padding-top: 30px;
+    line-height: 55px;
 }
 
 
 /***********************************SECTION LE BENCHMARK************************/
 .leBenchmark ul {
     margin-left: 20px;
+    margin-top:20px;
 }
 
 .leBenchmark p {
@@ -265,14 +312,16 @@ header.scrolled{
 
 .BenchmarkImg  {  
     margin-bottom:20px; 
-    margin-left: 230px;
+    margin-left: 120px;
 }
 
 .BenchmarkImg img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     object-fit: cover; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.285);
 }
+  
 
 /********************************SECTION PERSONA********************************/
 .lePersona img {
@@ -320,10 +369,17 @@ header.scrolled{
 }
 
 .MockupImg img {
-    width: 40%;
+    width: 50%;
     object-fit: cover;
     padding-left: 25px;
     padding-top:20px;
+}
+
+.nowrap p,
+.global p {
+   font-size: 14px;
+   margin-left:0;
+   margin-bottom: 8px;
 }
 
 /*section perspective*/
@@ -390,5 +446,9 @@ section{
 
 .mt64{
     margin-top: 64px;
+}
+
+.nowrap{
+    display: flex;
 }
 

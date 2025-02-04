@@ -26,7 +26,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="btnAccueil">
+                    <a href="" class="boutonQuiReste">
                         Documentation
                     </a>
                 </li>
@@ -114,11 +114,19 @@
                 <p>Avant de créer notre application La Cagette, nous avons réalisé un benchmark en nous inspirant
                     des sites HelloFresh et Quitoque car : </p>
 
-                <div class="BenchmarkImg">
-                    <img src="Assets/HelloFresh.jpg" class="tailleImg" alt="">
-                    <img src="Assets/jow.jpg" class="tailleImg" alt="">
-                    <img src="Assets/Quitoque.jpg" class="tailleImg" alt="">
+                <div class="BenchmarkImg flex ">
+
+                    <div class="width30">
+                        <img src="Assets/HelloFresh.jpg"  alt="">
+                    </div>
+                    <div class="width30">
+                        <img src="Assets/jow.jpg"  alt="">
+                    </div>
+                    <div class="width30">
+                        <img src="Assets/Quitoque.jpg"  alt="">
+                    </div>
                 </div>
+
                 <ul>
                     <li>Leurs caractéristiques essentielles pour une expérience utilisateur optimale. </li>
                     <li>Leur navigation fluide nous a particulièrement inspirés, car elle permet aux utilisateurs de
@@ -135,7 +143,7 @@
 
             <section id="Persona" class="lePersona bottom">
                 <h3 class="titre">LE PERSONA</h3>
-                <img src="Assets/persona (1).jpg" class="logo" alt="">
+                <img src="Assets/persona.jpg" classe="logo" alt="">
             </section>
 
 
@@ -170,23 +178,51 @@
                     application.
                 </p>
                 <div class="global flex">
-                    <div>
-                        <img src="Assets/Acceuil_mid_fi.png" class="width40" alt="photo de midfi">
-                    </div>
-                    <div>
-                        <img src="Assets/Liste_des_cagettes_mid_fi.png" class="width40" alt="photo de midfi">
-                    </div>
-                    <div>
-                        <img src="Assets/Liste_ingredients_mid_fi.png" class="width40" alt="photo de midfi">
-                    </div>
-                    <div>
-                        <img src="Assets/Mise_en_vente_mid_fi.png" class="width40" alt="photo de midfi">
+                    <div class="nowrap">
+                        <div>
+                            <p>ACCUEIL</p>
+                            <img src="Assets/Acceuil_mid_fi.png" class="width40" alt="photo de midfi">
+                        </div>
+                        <div>
+                            <p>CAGETTES</p>
+                            <img src="Assets/Liste_des_cagettes_mid_fi.png" class="width40" alt="photo de midfi">
+                        </div>
+                        <div>
+                            <p>DETAILS</p>
+                            <img src="Assets/Liste_ingredients_mid_fi.png" class="width40" alt="photo de midfi">
+                        </div>
+                        <div>
+                            <p>MISE EN VENTE</p>
+                            <img src="Assets/Mise_en_vente_mid_fi.png" class="width40" alt="photo de midfi">
+                        </div>
                     </div>
                 </div>
 
-                <h4>MOCK-UP HI-FI</h4>
-                <div class="MockupImg">
-                    <img src="Assets/Capture_hifi1.jpg" alt="photo fi">
+                <h4>MOCK-UP HI-FI</h4> <!-- section mock-up hi-fi -->
+                <div class="global">
+                    <div class="nowrap">
+                        <div>
+                            <p>ACCUEIL</p>
+                            <img src="Assets/Homepage_full.png" class="width40" alt=""> <!-- homepage -->
+                        </div>
+
+                        <div>
+                            <p>CAGETTES</p>
+                            <img src="Assets/liste_des_cagettes_finale.png" class="width40" alt="">
+                            <!-- liste des cagettes (commandes) -->
+                        </div>
+
+                        <div>
+                            <p>DETAILS</p>
+                            <img src="Assets/liste_ingredients_finale.png" class="width40" alt=""> <!-- liste des ingredients -->
+                        </div>
+
+                        <div>
+                            <p>MISE EN VENTE</p>
+                            <img src="Assets/mise en vente 2 -final.png" class="width40" alt="">
+                            <!-- ecran de mise en vente (promo) -->
+                        </div>
+                    </div>
                 </div>
 
             </section>
@@ -203,67 +239,69 @@
                 <h3>Avant / Après des tests utilisateurs :</h3>
 
 
-
                 <p>Modification du bouton d'accueil qui était confondu avec une bannière</p>
                 <div class="global flex">
                     <div class="width40">
                         <h4>AVANT</h4>
-                        <img src="Assets/Accueil_avant1.png" class="width80" alt=""> <!-- accueil avant test-->
+                        <img src="Assets/Accueil_avant1.png" class="width50" alt=""> <!-- accueil avant test-->
                     </div>
 
                     <div class="width40">
                         <h4>APRES</h4>
-                        <img src="./Assets/Accueil_final_apres (1).jpg" class="width80" alt=""> <!-- accueil apres test-->
+                        <img src="./Assets/Accueil_final_apres (1).jpg" class="width50" alt="">
+                        <!-- accueil apres test-->
                     </div>
                 </div>
 
-                
-                <p>Modification et séparation  de la bouteille de vin rouge des légumes de Thomas et aération de la section</p>
+
+                <p>Modification et séparation de la bouteille de vin rouge des légumes de Thomas et aération de la
+                    section</p>
                 <div class="global flex ">
                     <div class="width40">
                         <h4>AVANT</h4>
-                        <img src="Assets/liste_ingrédients_avant.png" class="width80" alt=""> <!-- accueil avant test-->
-                              <!-- liste ingredient avant test -->
+                        <img src="Assets/liste_ingrédients_avant.png" class="width50" alt=""> <!-- accueil avant test-->
+                        <!-- liste ingredient avant test -->
                     </div>
 
                     <div class="width40">
                         <h4>APRES</h4>
-                        <img src="Assets/liste_ingredients_final_apres.png" class="width80" alt=""> <!-- accueil apres test-->
-                                <!-- liste ingredient apres test (selection ingredient) -->
+                        <img src="Assets/liste_ingredients_final_apres.png" class="width50" alt="">
+                        <!-- accueil apres test-->
+                        <!-- liste ingredient apres test (selection ingredient) -->
                     </div>
                 </div>
 
 
-                    <p>Rajout d'images d'oignons et suppression de bouton </p>
-                    <div class="global flex">
-                        <div class="width40">
-                            <h4>AVANT</h4>
-                        
-                            <img src="Assets/mise_en_vente_avant_test.png" class="width80" alt="">
-                  <!-- mise en vente avant test-->
-                        </div>
-    
-                        <div class="width40">
-                            <h4>APRES</h4>
-                            <img src="Assets/mise_en_vente_final_apres_test.png" class="width80" alt="">
-                            <!-- mise en vente apres test-->
-                        </div>
+                <p>Rajout d'images d'oignons et suppression de bouton </p>
+                <div class="global flex">
+                    <div class="width40">
+                        <h4>AVANT</h4>
+
+                        <img src="Assets/mise_en_vente_avant_test.png" class="width50" alt="">
+                        <!-- mise en vente avant test-->
+                    </div>
+
+                    <div class="width40">
+                        <h4>APRES</h4>
+                        <img src="Assets/mise_en_vente_final_apres_test.png" class="width50" alt="">
+                        <!-- mise en vente apres test-->
+                    </div>
 
                 </div>
 
 
-                <p>Modification de l'interface. </p>
+                <p>Modification de l'interface</p>
                 <div class="global flex">
                     <div class="width40">
-                        <h4>AVANT</h4>                              
-              
-                        <img src="Assets/ecran_mise_en_vente_avant.png" class="width80" alt="">
+                        <h4>AVANT</h4>
+
+                        <img src="Assets/ecran_mise_en_vente_avant.png" class="width50" alt="">
                         <!-- mise en vente second ecran avant-->
                     </div>
                     <div class="width40">
-                        <h4>APRES</h4>                
-         
-                        <img src="Assets/ecran_mise_en_vente_formulaire_vide_final.png" class="width80" alt="">
+                        <h4>APRES</h4>
+
+                        <img src="Assets/ecran_mise_en_vente_formulaire_vide_final.png" class="width50" alt="">
                         <!-- mise en vente second ecran formulaire apres-->
                     </div>
                 </div>
